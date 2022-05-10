@@ -4,4 +4,6 @@
 
 [functions]
   directory="functions/"
+
+[context.production]
   NODE_ENV="production"
