@@ -1,2 +1,7 @@
 [build]
   functions = "functions"
+  NODE_ENV="production"
+
+[functions]
+  directory="functions/"
+  NODE_ENV="production"
