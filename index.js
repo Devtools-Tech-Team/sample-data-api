@@ -11,6 +11,6 @@ server.use(jsonServer.bodyParser);
 
 // Use default router
 server.use("/ecommerce", ecommerceRouter);
-server.listen(3000, () => {
+server.listen(8040, () => {
   console.log("JSON Server is running");
 });
