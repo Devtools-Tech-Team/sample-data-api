@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production ./node_modules/.bin/netlify-lambda serve src",
-    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +19,6 @@
   },
   "homepage": "https://github.com/tech-devtools/ecommerce-data#readme",
   "dependencies": {
-    "json-server": "^0.17.0",
-    "netlify-lambda": "^2.0.15",
-    "serverless-http": "^3.0.1"
+    "json-server": "^0.17.0"
   }
 }
