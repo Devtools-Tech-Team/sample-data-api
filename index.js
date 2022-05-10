@@ -10,7 +10,7 @@ server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
 // Use default router
-server.use("/api/ecommerce", ecommerceRouter);
+server.use("/ecommerce", ecommerceRouter);
 server.listen(3000, () => {
   console.log("JSON Server is running");
 });
