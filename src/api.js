@@ -4,6 +4,7 @@ const server = jsonServer.create();
 const router = jsonServer.router("./db.json");
 const middlewares = jsonServer.defaults({
   readOnly: true,
+  static: path.join(__dirname, "./public"),
 });
 const serverless = require("serverless-http");
 
